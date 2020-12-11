@@ -1,4 +1,4 @@
-class TermSCP < Formula
+class Termscp < Formula
   desc "Basically, WinSCP on a terminal"
   homepage "https://github.com/ChristianVisintin/TermSCP"
   url "https://github.com/ChristianVisintin/TermSCP/releases/latest/download/termscp-mac.tar.gz"
