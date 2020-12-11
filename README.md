@@ -1,6 +1,6 @@
 # Homebrew TermSCP
 
-Homebrew termscp repository
+Homebrew [termscp](https://github.com/ChristianVisintin/TermSCP) repository
 
 To install run
 
