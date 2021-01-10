@@ -1,6 +1,6 @@
 # Homebrew TermSCP
 
-Homebrew [termscp](https://github.com/ChristianVisintin/TermSCP) repository
+Homebrew [termscp](https://github.com/veeso/termscp) repository
 
 To install run
 
@@ -8,4 +8,3 @@ To install run
 brew tap ChristianVisintin/termscp
 brew install termscp
 ```
-
