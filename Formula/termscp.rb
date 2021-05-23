@@ -2,8 +2,8 @@ class Termscp < Formula
   desc "Basically, WinSCP on a terminal"
   homepage "https://github.com/veeso/termscp"
   url "https://github.com/veeso/termscp/releases/latest/download/termscp-mac.tar.gz"
-  sha256 "dfe166395ccef99905fa3dce5c86d62fd3997e370ceeeaa7f29f2470dc9c8745"
-  version "0.4.1"
+  sha256 "ba18a82d02a6596ad857f33cdff8b8a41faf0d4a5e8a131f3195c928c9b51ae5"
+  version "0.5.0"
 
   def install
     bin.install "termscp"
