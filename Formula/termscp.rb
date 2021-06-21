@@ -1,9 +1,9 @@
 class Termscp < Formula
-  desc "Basically, WinSCP on a terminal"
+  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP"
   homepage "https://github.com/veeso/termscp"
   url "https://github.com/veeso/termscp/releases/latest/download/termscp-mac.tar.gz"
-  sha256 "08cf7b7028f30d406c92213f109816159746c49bcfef0cba0bf9ea84c905c1d9"
-  version "0.5.0"
+  sha256 "0ec3b9959828de44f7a507868f78824c2ce0b4d5662a1c5472da83ebb8130980"
+  version "0.5.1"
 
   def install
     bin.install "termscp"
