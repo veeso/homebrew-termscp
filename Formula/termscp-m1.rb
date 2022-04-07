@@ -1,4 +1,4 @@
-class Termscp < Formula
+class TermscpM1 < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3"
   homepage "https://github.com/veeso/termscp"
   url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.8.1-arm64-apple-darwin.tar.gz"
