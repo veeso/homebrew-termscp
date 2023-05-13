@@ -1,5 +1,5 @@
 class Termscp < Formula
-  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3"
+  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB"
   homepage "https://github.com/veeso/termscp"
   license "MIT"
   version "0.12.0"
@@ -16,7 +16,6 @@ class Termscp < Formula
   end
 
   on_linux do
-    depends_on "pkg-config"
     depends_on "samba"
     depends_on "dbus"
 
