@@ -1,6 +1,9 @@
 name: linux
 
-on: [push, pull_request]
+on:
+    # Runs on pushes targeting the default branch
+    push:
+        branches: ["main"]
 
 env:
     CARGO_TERM_COLOR: always

@@ -7,11 +7,11 @@ class Termscp < Formula
   on_macos do
     on_arm do
       url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.0-arm64-apple-darwin.tar.gz"
-      sha256 "d0cd088c6432e641609f342398e6c066623d624ace8be38f4262b35f5165d328"
+      sha256 "4e4a1bb74070cfbe1f91964c7ef3e5aaf17258d87c4d4abb74c49582d1f571aa"
     end
     on_intel do
       url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b2773ec5e67c32af2d8b34a6e2f000193114bcfe32886258986930d983a43b2b"
+      sha256 "d1a86027d8b6bda10f2bab5d77d57a2ca89a263809c71a7630423f82b86376ad"
     end
   end
 

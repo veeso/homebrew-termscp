@@ -8,4 +8,4 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 export PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 
 eval $($(brew --prefix)/bin/brew shellenv)
-brew install --build-from-source ./Formula/termscp.rb
+brew install veeso/termscp/termscp
