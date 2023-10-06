@@ -2,16 +2,16 @@ class Termscp < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB"
   homepage "https://termscp.veeso.dev/"
   license "MIT"
-  version "0.12.2"
+  version "0.12.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.2-arm64-apple-darwin.tar.gz"
-      sha256 "242d0fe9300eee36fd49badbf441db1808dc240629b9d2b3f50007c5cf633bc0"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.3-arm64-apple-darwin.tar.gz"
+      sha256 "f8fbecb7545e1ba92b39067c08f3a82b05622da07297dd312d8b7f4a2314e8da"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b74f76f15a4a7fc27ec934cf688ab15c820424c56e35a6291e1aebb683374270"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.3-x86_64-apple-darwin.tar.gz"
+      sha256 "14260cf55cd704ee97492fb16b498da84a689195f2858eaccf02fcd92480a07c"
     end
   end
 
@@ -20,12 +20,12 @@ class Termscp < Formula
     depends_on "dbus"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2b32247e7c8da834b5970fe9abd665edf5e9f46f083c7b56e1d83634761a9ca2"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ad722f6a6b3257567e74a7f60180992eb7c352ad1b46972a99f04f2e976a9649"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d2e21c3a92cea328f6a951f6d79df038417af230f6de29c06473ea9ed299bf95"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.12.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1acb1ee897268ab0a0eae37ec9d5b6493213e2d603e7c9b2f17720e2ca2ee241"
     end
   end
 
