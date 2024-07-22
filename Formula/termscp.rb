@@ -1,17 +1,17 @@
 class Termscp < Formula
-  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB/WebDAV"
+  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/Kube/SMB/WebDAV"
   homepage "https://termscp.veeso.dev/"
   license "MIT"
-  version "0.13.0"
+  version "0.14.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.13.0-arm64-apple-darwin.tar.gz"
-      sha256 "6f7537e8451cebd623a712ade9c0e88253bea11d8d1dec2b2016dc1e08bb8a64"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-arm64-apple-darwin.tar.gz"
+      sha256 "d312dfb13c125bd18112e816f74008e234c02e410ca7b4617bb9bfbdfc4c5664"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "50fadc30790f35313eb624719c61b59e26ea59155896a2a616cd241414fafc84"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "63b0eea8a8ab3457d1a92d0b9c0cf492bd4ab0220a3e54db416b31b29aadc541"
     end
   end
 
@@ -20,12 +20,12 @@ class Termscp < Formula
     depends_on "dbus"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a55a73e9eb65d6f786a6856aa830d6bdd71b2c4dfa48d3ea4c3feb3f70f2ce5f"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fa2620d7b4d0c29e354d47daa9c79248812e68930525c8e7b9ddcc38a12f19fd"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "20d7cbf182640b333e1c30a0359c036f0e5f636ece51a4d7cdd2f04f9c8166e9"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ebee357f3a01ff356975ffe6a2bc074cf60022613237c6fc6000f57bdd2b4fa6"
     end
   end
 
