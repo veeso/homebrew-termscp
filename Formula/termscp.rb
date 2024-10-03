@@ -2,16 +2,16 @@ class Termscp < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/Kube/SMB/WebDAV"
   homepage "https://termscp.veeso.dev/"
   license "MIT"
-  version "0.14.0"
+  version "0.15.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-arm64-apple-darwin.tar.gz"
-      sha256 "d312dfb13c125bd18112e816f74008e234c02e410ca7b4617bb9bfbdfc4c5664"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.15.0-arm64-apple-darwin.tar.gz"
+      sha256 "fd6e954e3c7ceb6045de7ab433d17c803ffb4c8fc61835a891335a073a2dd620"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-x86_64-apple-darwin.tar.gz"
-      sha256 "63b0eea8a8ab3457d1a92d0b9c0cf492bd4ab0220a3e54db416b31b29aadc541"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "04e009b2c39a184da6062d326a2e8997b5de8c2fcd89ad8521f3c37b736c0b07"
     end
   end
 
@@ -20,12 +20,12 @@ class Termscp < Formula
     depends_on "dbus"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa2620d7b4d0c29e354d47daa9c79248812e68930525c8e7b9ddcc38a12f19fd"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.15.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6ba36b56a8b377c2978f5aefc110b831bf3e34805c8192866251e3d16363f802"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ebee357f3a01ff356975ffe6a2bc074cf60022613237c6fc6000f57bdd2b4fa6"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "078666686f8e4dc211a31a1e34b233b075dd778512ea9a477f4ef992e6bb7909"
     end
   end
 
