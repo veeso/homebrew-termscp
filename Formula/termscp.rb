@@ -2,7 +2,7 @@ class Termscp < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/Kube/SMB/WebDAV"
   homepage "https://termscp.veeso.dev/"
   license "MIT"
-  version "0.19.1"
+  version "1.0.0"
 
   on_macos do
     depends_on "bison"
@@ -22,12 +22,12 @@ class Termscp < Formula
     depends_on "zlib"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.19.1-aarch64-apple-darwin.tar.gz"
-      sha256 "df4e87827f5d80da95c13d6f6a16adecf2773a747d3657cce69c9d956bff69f3"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ae496f85501bd126aef70b570116dbed76cf96b8347423712c10df3d3a3c6cff"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.19.1-x86_64-apple-darwin.tar.gz"
-      sha256 "ea0e6f187ada25f778432032c3142cfc3e84f3346d9af62e0d2333eb6e916c87"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c31548524e43e60d7fe41b40f916992ec975f4b406f89a3345efffc9d04935d2"
     end
   end
 
@@ -35,12 +35,12 @@ class Termscp < Formula
     depends_on "dbus"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.19.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "06e43039895e29fe1456d8fcb6775dc4b8e6953c8007e2fbfc15163d5ba91bd0"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ae94afbc57435e2a3f049f3ca2b6a8462ca8b33b39f56893fb00553cfb7e1172"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v0.19.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1d6487922abe2e46cd66b2dffb5a7bed3dd8fb73d4e6f4f3141e85d2aa0da12f"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89b0929b1161ac669643e76bbd220ea0afa002d73501602e509211c30d28202a"
     end
   end
 
