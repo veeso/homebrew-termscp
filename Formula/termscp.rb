@@ -1,8 +1,8 @@
 class Termscp < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/Kube/SMB/WebDAV"
-  homepage "https://termscp.veeso.dev/"
+  homepage "https://termscp.rs/"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     depends_on "bison"
@@ -22,12 +22,12 @@ class Termscp < Formula
     depends_on "zlib"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ae496f85501bd126aef70b570116dbed76cf96b8347423712c10df3d3a3c6cff"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fefcdd2885b45b856cfaf8a2445e32d3d79225624136c4843fa2e64e08752f2e"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c31548524e43e60d7fe41b40f916992ec975f4b406f89a3345efffc9d04935d2"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a70007f2aa895ffed32af2724d45a1b00a89a64013f3759990c63a09aad74619"
     end
   end
 
@@ -35,12 +35,12 @@ class Termscp < Formula
     depends_on "dbus"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ae94afbc57435e2a3f049f3ca2b6a8462ca8b33b39f56893fb00553cfb7e1172"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "918194fe9878a6096e9ca6361681862aba36e9125e53ac33b1d44327a3f52037"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89b0929b1161ac669643e76bbd220ea0afa002d73501602e509211c30d28202a"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "68cb48546d5decf1152fcd84b9fb0c8c5acf227f83f1f5e840419542a84eb637"
     end
   end
 
