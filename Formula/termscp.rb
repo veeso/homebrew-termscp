@@ -1,8 +1,8 @@
 class Termscp < Formula
-  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/Kube/SMB/WebDAV"
+  desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/GCS/Kube/SMB/WebDAV"
   homepage "https://termscp.rs/"
   license "MIT"
-  version "1.1.1"
+  version "1.2.0"
 
   on_macos do
     depends_on "bison"
@@ -22,25 +22,23 @@ class Termscp < Formula
     depends_on "zlib"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4f7f526b272d90af71d3a303653fda6cbb994e1cad4a97e198784aa7ef9699d1"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0801ffed765d1a870f4f7a8620d722304cf9e9e555c793c48ce385c1d637d86b"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "67381afaaef6dfc61667214e211f0d5c430ab6d35a659e4bc6fe2a067f3d23d0"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9ba2f4b7237037148948c282377cef697a7b3c1ff4521c6eaa828b0d327e8c5d"
     end
   end
 
   on_linux do
-    depends_on "dbus"
-
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "680ead62f4821dbf1b23b616535658e3ed3a519ff058d36d4ad6eea65b7a5fd4"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4a4bac2209b497d191ed013dc4ac05e424d7c62a5cfd34b7e674feb35d94ae1f"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ce25654167e7633ea2f4fa42c078b59fdfd36103d2c1b424924cbc15b4ab837c"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "058b9d5d6e44465e3508460ca0c65c25de227d573423bbb6286141fa6d3f7683"
     end
   end
 
