@@ -2,7 +2,7 @@ class Termscp < Formula
   desc "A feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/GCS/Kube/SMB/WebDAV"
   homepage "https://termscp.rs/"
   license "MIT"
-  version "1.2.0"
+  version "1.2.1"
 
   on_macos do
     depends_on "bison"
@@ -22,23 +22,23 @@ class Termscp < Formula
     depends_on "zlib"
 
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0801ffed765d1a870f4f7a8620d722304cf9e9e555c793c48ce385c1d637d86b"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b00c4c7ec0c14023a1d765720e47cc376fa35dd6d6b5572521f5140235023a29"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9ba2f4b7237037148948c282377cef697a7b3c1ff4521c6eaa828b0d327e8c5d"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "839a4bbf2bbf51d276ad1eaa6d15e17e5ae6fdd67035182ddf8ead84946b3a9c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4a4bac2209b497d191ed013dc4ac05e424d7c62a5cfd34b7e674feb35d94ae1f"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "79bbeb31c1bf346e9ac8e0c2e1b5e1f52f2a1ba37757481369bb342570ec0316"
     end
     on_intel do
-      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "058b9d5d6e44465e3508460ca0c65c25de227d573423bbb6286141fa6d3f7683"
+      url "https://github.com/veeso/termscp/releases/latest/download/termscp-v1.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "fdfb3ea26ab3ed592bfc4bd4eeb54e7e579562f4722aad03937e7f70d6f2ff8d"
     end
   end
 
